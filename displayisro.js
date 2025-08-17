@@ -102,7 +102,7 @@ export default class Displayisro extends LightningElement {
         if (this.fullSatelliteData.length > 0 && this.countries.includes(selectedCountry)) {
             const filteredSatellites = this.fullSatelliteData.filter(satellite => satellite.country.toUpperCase() === selectedCountry.toUpperCase())
             // Correct the typo: map from 'name', not 'launcher' as requested in your previous query.
-            this.satelliteList = filteredSatellites.map(sat => sat.name);
+            this.satelliteList = filteredSatellites.map(sat => sat.launcher);
             // Consistent variable name
             this.showSatelliteList = true;
             // Log the satelliteList, which now contains the IDs
