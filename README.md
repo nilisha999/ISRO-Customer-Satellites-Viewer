@@ -20,3 +20,6 @@ Technical Stack:
 --- HTML
 
 --- JavaScript
+
+# Isro Website to fetch data 
+Endpoint url : https://isro.vercel.app/api/customer_satellites
